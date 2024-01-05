@@ -50,6 +50,11 @@
           </li>
         </ul>
       </address>
+      <button class="mob-btn" type="button"  aria-label="open menu btn">
+        <svg class="mob-btn-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+        </svg>
+      </button>
       </div>
     </header>
     <!--content -->
@@ -58,7 +63,7 @@
       <section class="hero">
         <div class="container"> 
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="button">Order Service</button>
+        <button type="button" class="hero-button">Order Service</button>
         </div>
       </section>
       <!--section 1 -->
@@ -552,11 +557,11 @@
         </div>
     </footer>
       <!--Modal form-->
-    <div class="backdrop">
-      <div class="modal">
+   <div class="backdrop">
+      <div class="modal hide">
          <button type="button" class="close-btn">
           <svg class="close" width="8" height="8">
-            <use href="./images/icons.svg#close-black1"></use>
+            <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
          <p class="modal-title">Leave your contacts and we will call you back</p>
@@ -604,7 +609,7 @@
               </svg>
             </div>
           </div>
-           <div class="box-input  textarea">
+           <div class="box-modal textarea">
             <label class="modal-label" for="user-comment">Comment</label>
 
             <textarea
@@ -617,20 +622,23 @@
           </div>
            <div class="checkbox-modal">
             <input
-              class="visually-hidden"
+              class="checkbox visually-hidden"
               type="checkbox"
               name="user-privacy"
               id="user-privacy"
               value="true"
-              required
             />
-            <label class="lable-checkbox" for="user-privacy"
-              ><span class="checkbox-span"
-                ><svg class="svg-checkbox" width="10" height="8">
-                  <use href="./images/icons.svg#click"></use></svg></span
-              >I accept the terms and conditions of the
-              <a class="link-privacy" href="">Privacy Policy</a></label
-            >
+            <label class="form-agreement" for="user-privacy">
+              <span class="form-agreement-checkbox">
+                <svg class="form-agreement-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              <span class="form-agreement-label">
+                I accept the terms and conditions of the
+                <a class="form-agreement-link" href="">Privacy Policy</a>
+              </span>
+            </label>
           </div>
 
           <button class="modal-btn" type="submit">Send</button>
@@ -641,7 +649,7 @@
     <div class="mobile-box">
       <button class="close-btn" type="button" aria-lable="mobile close button">
         <svg class="close" width="8" height="8">
-            <use href="./images/icons.svg#close-black1"></use>
+            <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
       <ul class="mob-list">
