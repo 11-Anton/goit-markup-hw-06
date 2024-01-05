@@ -11,6 +11,10 @@ body {
 main{
   flex-grow: 1;
 }
+section{
+  padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 ul,ol {
   list-style: none;
@@ -342,9 +346,6 @@ color: #fff;
   display: none;
 } 
 
-.section-one {
-  padding: 120px 0 120px 0;
-}
 
  
  .section-one .chapter-one-title{
@@ -560,10 +561,6 @@ font-weight: 500;
 }
 
 /*SECTION THREE*/
- .section-three {
-   padding: 120px 0 120px 0;
- }
-
  .section-tree,
  .chapter-three-title {
    margin-bottom: 72px;
